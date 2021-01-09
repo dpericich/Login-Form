@@ -1,0 +1,14 @@
+.button {
+  width: 15rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: $color-orange;
+  font-size: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 1px 3px rgba(rgb(31, 30, 30), 0.1);
+
+  &:active {
+    transform: translateY(2px);
+  }
+}

@@ -1,0 +1,12 @@
+.link {
+  margin: 0.5rem 0;
+  &:visited,
+  &:link,
+  &:hover {
+    color: #ff8c00;
+  }
+
+  &:active {
+    color: #000;
+  }
+}
