@@ -1,0 +1,108 @@
+body {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.button {
+  width: 15rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: #ff8c00;
+  font-size: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 1px 3px rgba(31, 30, 30, 0.1); }
+  .button:active {
+    transform: translateY(2px); }
+
+.input {
+  width: 30%;
+  height: 5rem;
+  font-size: 2.5rem;
+  text-align: center;
+  border-radius: 5px;
+  margin: 2rem 0; }
+
+.link {
+  margin: 0.5rem 0; }
+  .link:visited, .link:link, .link:hover {
+    color: #ff8c00; }
+  .link:active {
+    color: #000; }
+
+.popup {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0; }
+  .popup__modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.05); }
+  .popup > * {
+    margin: 1rem;
+    width: 20%; }
+    .popup > *:not(:last-child) {
+      font-size: 1.7rem; }
+  .popup__header {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ff8c00;
+    width: 20vw;
+    color: #fff; }
+  .popup__close {
+    align-self: flex-end;
+    font-size: 6rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem; }
+    .popup__close:active {
+      transform: translateY(2px);
+      text-shadow: 1px 1px #000; }
+  .popup__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+    padding: 1rem; }
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 25%; }
+  .login__header {
+    width: 100vw;
+    height: 30vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+    background-color: #ff8c00;
+    text-align: center;
+    position: relative; }
+    .login__header--title {
+      font-size: 5.5rem;
+      color: #fff;
+      position: absolute;
+      left: 50%;
+      top: 25%;
+      transform: translate(-50%, -50%); }
