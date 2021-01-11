@@ -12,7 +12,7 @@ const PopUp = ({ title, action }) => {
           </div>
           <h2 className="popup__title">{title || "Title"}</h2>
         </div>
-        <Input text="Username / Email" />
+        <Input text="Username / Email" focus={true} />
         <Input text="Password" />
         <Input text="Reenter Password" />
         <Button name="Submit" />

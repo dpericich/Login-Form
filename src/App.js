@@ -34,6 +34,7 @@ class App extends React.Component {
             placeholder="Email / Username"
             text={this.state.username}
             getInput={this.getUserName}
+            focus={true}
           />
           <Input
             placeholder="Password"

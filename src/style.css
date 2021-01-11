@@ -19,7 +19,7 @@ html {
     transform: translateY(2px); }
 
 .input {
-  width: 30%;
+  width: 80%;
   height: 5rem;
   font-size: 2.5rem;
   text-align: center;
@@ -94,11 +94,12 @@ html {
   margin: 0 25%; }
   .login__header {
     width: 100vw;
-    height: 30vh;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 50%);
+    height: 20vh;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75%);
     background-color: #ff8c00;
     text-align: center;
-    position: relative; }
+    position: relative;
+    margin-bottom: 3rem; }
     .login__header--title {
       font-size: 5.5rem;
       color: #fff;
